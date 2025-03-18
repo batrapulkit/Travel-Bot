@@ -1,0 +1,16 @@
+project:
+  name: "Travel Assistant AI"
+  version: "1.0.0"
+  author: "Pulkit Batra"
+
+logging:
+  level: "INFO"
+  log_file: "logs/app.log"
+
+api_services:
+  openai: "https://api.openai.com/v1/"
+  weatherapi: "https://api.weatherapi.com/v1/"
+  serper: "https://serper.dev/api/"
+  amadeus: "https://api.amadeus.com/"
+  google_places: "https://maps.googleapis.com/maps/api/place/"
+  eventbrite: "https://www.eventbriteapi.com/v3/"
